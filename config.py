@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
-API_KEY = getenv("API_KEY", Api_key) # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
+API_KEY = getenv("API_KEY", "NxGBNexGenBots9e06b0") # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
